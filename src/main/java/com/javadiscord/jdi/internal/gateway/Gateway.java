@@ -9,6 +9,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
  * This object is returned by calling the <a href="https://discord.com/developers/docs/topics/gateway#get-gateway-bot">Get Gateway Bot</a>
  * endpoint.
  *
+ * @author Suraj Kumar
  * @param url WebSocket URL that can be used for connecting to the Discord gateway.
  * @param shards Recommended number of <a href="https://discord.com/developers/docs/topics/gateway#sharding">shards</a>
  *               to use when connecting to the Discord gateway.
